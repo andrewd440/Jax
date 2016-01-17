@@ -1,0 +1,14 @@
+#include "Color.h"
+
+/////////////////////////////////////////////////////////////////////
+//////////////// Color constants ////////////////////////////////////
+/////////////////////////////////////////////////////////////////////
+
+namespace JaxMat
+{
+	const FColor FColor::Red(1, 0, 0, 1);
+	const FColor FColor::Green(0, 1, 0, 1);
+	const FColor FColor::Blue(0, 0, 1, 1);
+	const FColor FColor::White(1, 1, 1, 1);
+	const FColor FColor::Black(0, 0, 0, 1);
+}
